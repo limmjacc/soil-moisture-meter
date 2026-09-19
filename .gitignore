@@ -1,0 +1,21 @@
+# Local working-memory file — not committed, kept fully up to date locally
+CLAUDE.md
+
+# Captured calibration/sweep data (can be large, machine/session-specific)
+analysis/data/*.csv
+!analysis/data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Arduino / PlatformIO build artifacts
+build/
+.pio/
+*.hex
+*.elf
+
+# OS
+.DS_Store
